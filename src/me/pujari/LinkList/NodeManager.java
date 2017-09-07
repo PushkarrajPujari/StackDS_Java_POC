@@ -1,5 +1,7 @@
 package me.pujari.LinkList;
 
+import java.util.Objects;
+
 /**
  * @Author : Pushkarraj Pujari
  * @Since  : 07/09/2017.
@@ -22,10 +24,10 @@ public class NodeManager {
         }
     }
 
-    public Node removeNode(){
+    public String removeNode(){
         temp = head;
         head = head.getNext();
-        return temp;
+        return String.valueOf(temp.getValue());
     }
 
     public void print(){
