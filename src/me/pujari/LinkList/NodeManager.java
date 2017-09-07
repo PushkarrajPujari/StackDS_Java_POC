@@ -30,9 +30,12 @@ public class NodeManager {
 
     public void print(){
         temp = head;
-        for(int i = 1;head.getNext()!=null;i++){
+        for(int i = 1;true;i++){
             System.out.println("Value["+i+"] = "+head.getValue());
             head = head.getNext();
+            if(head == null){
+                break;
+            }
         }
         head = temp;
     }
