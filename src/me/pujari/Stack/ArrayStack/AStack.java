@@ -1,4 +1,4 @@
-package me.pujari.ArrayStack;
+package me.pujari.Stack.ArrayStack;
 
 import me.pujari.Interface.IStack;
 

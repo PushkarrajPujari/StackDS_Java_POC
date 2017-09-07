@@ -1,6 +1,6 @@
 package me.pujari.Main;
 
-import me.pujari.ArrayStack.AStack;
+import me.pujari.Stack.ArrayStack.AStack;
 
 /**
  * @Author : Pushkarraj Pujari

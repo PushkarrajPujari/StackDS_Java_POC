@@ -1,6 +1,6 @@
 package me.pujari.Main;
 
-import me.pujari.ArrayStack.LStack;
+import me.pujari.Stack.LinkedListStack.LStack;
 
 /**
  * @Author : Pushkarraj Pujari

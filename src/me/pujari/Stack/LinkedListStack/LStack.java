@@ -1,9 +1,7 @@
-package me.pujari.ArrayStack;
+package me.pujari.Stack.LinkedListStack;
 
 import me.pujari.Interface.IStack;
 import me.pujari.LinkList.NodeManager;
-
-import java.util.Objects;
 
 /**
  * @Author : Pushkarraj Pujari
