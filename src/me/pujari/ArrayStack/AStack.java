@@ -1,5 +1,7 @@
 package me.pujari.ArrayStack;
 
+import me.pujari.Interface.IStack;
+
 /**
  * @Author : Pushkarraj Pujari
  * @Since  : 07/09/2017
@@ -7,7 +9,7 @@ package me.pujari.ArrayStack;
  * Stage 1 - Implementation of Basic Stack
  * */
 
- public class AStack {
+ public class AStack implements IStack{
     private int [] stack = new int[10];
     private int stackPoint = 10;
     private String poppedValue;
@@ -20,7 +22,7 @@ package me.pujari.ArrayStack;
             System.out.println(stack[stackPoint] + " Pushed in stack");
         }
     }
-    public String pop(){
+    public Object pop(){
         if(stackPoint == 10){
             System.out.println("Stack Empty ....");
             poppedValue = "StackEmpty";

@@ -1,13 +1,16 @@
 package me.pujari.ArrayStack;
 
+import me.pujari.Interface.IStack;
 import me.pujari.LinkList.NodeManager;
+
+import java.util.Objects;
 
 /**
  * @Author : Pushkarraj Pujari
  * @Since  : 9/7/2017.
  */
 
-public class LStack {
+public class LStack implements IStack{
     private NodeManager nodeManager;
 
     public LStack(){
@@ -15,9 +18,10 @@ public class LStack {
     }
     public void push(int v){
         nodeManager.addNode(v);
+        System.out.println(v + " Pushed in stack");
     }
 
-    public int pop(){
+    public Object pop(){
        return Integer.parseInt(nodeManager.removeNode());
     }
 
